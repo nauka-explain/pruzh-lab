@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ОГЭ Физика — Лабораторная работа №4</title>
+<link rel="stylesheet" href="css/style.css"></head>
+<body>
+<svg width="0" height="0" style="position:absolute"><defs>
+<linearGradient id="chr" x1="0" x2="1"><stop offset="0" stop-color="#7f8b95"/><stop offset=".3" stop-color="#f7fafc"/><stop offset=".6" stop-color="#b9c3cb"/><stop offset="1" stop-color="#76828c"/></linearGradient>
+<linearGradient id="gray" x1="0" x2="1"><stop offset="0" stop-color="#8e949a"/><stop offset=".4" stop-color="#c3c8cc"/><stop offset="1" stop-color="#8a9096"/></linearGradient>
+<linearGradient id="blue" x1="0" x2="1"><stop offset="0" stop-color="#1c56b0"/><stop offset=".35" stop-color="#4c8df0"/><stop offset="1" stop-color="#18489a"/></linearGradient>
+<linearGradient id="wood" x1="0" x2="1"><stop offset="0" stop-color="#d9b27c"/><stop offset=".5" stop-color="#f0d6ab"/><stop offset="1" stop-color="#cfa56c"/></linearGradient>
+<linearGradient id="plate" x1="0" x2="1"><stop offset="0" stop-color="#eef1f3"/><stop offset="1" stop-color="#cfd6db"/></linearGradient>
+<linearGradient id="rod" x1="0" x2="1"><stop offset="0" stop-color="#5b656e"/><stop offset=".4" stop-color="#d8dfe4"/><stop offset="1" stop-color="#4f5962"/></linearGradient>
+<filter id="sh" x="-30%" y="-10%" width="170%" height="130%"><feDropShadow dx="3" dy="4" stdDeviation="3" flood-color="#14202c" flood-opacity=".28"/></filter>
+</defs></svg>
+<header><div><h1 id="lt"></h1>
+<p id="li"></p></div></header>
+<main>
+<aside id="kit"><h2>Лабораторные работы</h2><div id="labs"></div><div id="labname"></div><h2>Комплект №2</h2><div id="tray"></div><p class="hint">Берите предмет за любое место. Вешайте на крючки штатива или ставьте на рейку. Чтобы убрать — отпустите над ящиком.</p></aside>
+<section id="bench"><svg id="ws" viewBox="0 0 800 900" preserveAspectRatio="xMidYMid meet"></svg>
+<div id="tools">
+<button id="undo" data-tip="Отменить · Ctrl+Z" aria-label="Отменить"><svg viewBox="0 0 24 24"><path d="M9 14 4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 0 12h-3"/></svg></button>
+<button id="redo" data-tip="Повторить · Ctrl+Y" aria-label="Повторить"><svg viewBox="0 0 24 24"><path d="m15 14 5-5-5-5"/><path d="M20 9H10a6 6 0 0 0 0 12h3"/></svg></button>
+<button id="restart" data-tip="Начать заново · R" aria-label="Начать заново"><svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg></button><i></i>
+<button id="zout" data-tip="Отдалить · −" aria-label="Отдалить"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4M8 11h6"/></svg></button><span id="zv">100%</span>
+<button id="zin" data-tip="Приблизить · + или колесо" aria-label="Приблизить"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4M8 11h6M11 8v6"/></svg></button>
+<button id="zfit" data-tip="Сбросить масштаб · 0" aria-label="Сбросить масштаб"><svg viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button><i></i>
+<button id="snd" data-tip="Звук · M" aria-label="Звук"><span class="on"><svg viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg></span><span class="off"><svg viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="m16 9 5 6M21 9l-5 6"/></svg></span></button></div><div id="msg"></div></section>
+<aside id="form"><h2>Бланк ответов №2</h2>
+<form id="answer" onsubmit="return false"></form></aside>
+</main>
+<footer>Разработано специально для частной библиотеки <a href="https://t.me/nauka_explain" target="_blank" rel="noopener">Поясни за науку</a></footer>
+<svg id="fly" style="position:fixed;left:0;top:0;width:100vw;height:100vh;pointer-events:none;z-index:50"></svg>
+<script src="js/equipment.js"></script><script src="js/simulator.js"></script><script src="js/labs.js"></script>
+</body></html>
